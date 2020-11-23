@@ -1,7 +1,7 @@
 package string;
 
 public class KMP {
-    
+
     public int kmp(String s, String pattern) {
         int[] nextArray = getNextArray(pattern);
         int i = 0, j = 0,index;
